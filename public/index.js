@@ -1,4 +1,7 @@
-import { createMainContent } from './main.js';
+import {
+    createMainContent,
+    phase2
+} from './main.js';
 
 const initializePage = () => {
     // Create container
@@ -14,4 +17,7 @@ const initializePage = () => {
 window.onload = () => {
     initializePage();
     createMainContent();
+
+    /** phase 2 */
+    phase2();
 };
